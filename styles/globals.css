@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    height: 6px;
+    background: #ccc;
+}
+
+.range-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #774caf;
+    cursor: pointer;
+    /* margin-top: -10px;  */
+}
+
+label {
+    text-wrap: nowrap;
+    font-size: x-large;
+}
+
+input[type="checkbox"] {
+    transform: scale(2, 2);
+}
+
+.cum-icon svg {
+    stroke: #fff;
+}
+
+.hover\:text-white:hover .cum-icon svg {
+    stroke: #fff;
+}
+
+a {
+    color: #774caf;
+}
+
+.border-blue-500 {
+    border: 1px solid #fff;
+    margin: .2rem;
+    
+}
+
+.border-blue-500:hover {
+    border: 1px solid #774caf;
+}
+
+.border-blue-500-Link {
+    border: 1px solid #774caf;
+    margin: .2rem;
+    min-height:8rem;
+}
+
+.border-blue-500-Link:hover {
+    background-color: #774caf;
+    color: #fff;
+}
+
+
+li,
+p {
+    color: #000;
+}
